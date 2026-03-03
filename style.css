@@ -63,6 +63,11 @@ body {
     background-color: #45a049;
 }
 
+#downloadBtn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
 body::after {
     content: '';
     background-color: rgba(0, 0, 0, 0.3);
@@ -79,6 +84,7 @@ body::after {
     background: #007acc;
     color: white;
     padding: 20px;
+    font-size: 0.9rem;
 }
 
 .sidebar .profile {
@@ -112,6 +118,7 @@ body::after {
 
 .sidebar ul li {
     margin-bottom: 10px;
+    font-size: 0.92rem;
 }
 
 .sidebar ul li a {
@@ -127,10 +134,11 @@ body::after {
 .main-content {
     width: 70%;
     padding: 20px 30px;
+    font-size: 0.9rem;
 }
 
 .main-content section {
-    margin-bottom: 30px;
+    margin-bottom: 28px;
 }
 
 .main-content h2 {
@@ -147,7 +155,7 @@ body::after {
 }
 
 .main-content .job p {
-    font-size: 0.9rem;
+    font-size: 1em;
     margin-bottom: 10px;
 }
 
@@ -185,26 +193,26 @@ h1 {
 }
 
 .skills {
-    padding: 20px;
+    padding: 18px;
     background-color: #f8f9fa;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .skills h2 {
-    font-size: 28px;
+    font-size: 24px;
     color: #333;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .skill-category {
-    margin-bottom: 20px;
+    margin-bottom: 14px;
 }
 
 .skill-category h3 {
-    font-size: 20px;
+    font-size: 16px;
     color: #2c3e50;
-    margin-bottom: 10px;
+    margin-bottom: 6px;
 }
 
 .skill-category ul {
@@ -213,9 +221,9 @@ h1 {
 }
 
 .skill-category ul li {
-    font-size: 16px;
+    font-size: 0.9em;
     color: #555;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
 }
 
 .skill-category ul li:before {
@@ -229,7 +237,7 @@ h1 {
 }
 
 .project {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     background-color: #f0f8ff;
     padding: 10px;
     border-radius: 5px;
@@ -243,6 +251,92 @@ h1 {
 
 .project li {
     color: #333;
+    font-size: 1em;
+    margin-bottom: 2px;
+}
+
+/* Improve pagination when exporting to PDF */
+.main-content h3,
+.main-content h4,
+.project-title {
+    page-break-after: avoid;
+    break-after: avoid-page;
+}
+
+.project,
+.project ul {
+    page-break-inside: auto;
+    break-inside: auto;
+}
+
+/* Compact layout used only during PDF export */
+body.pdf-export {
+    line-height: 1.3;
+}
+
+body.pdf-export .cv-container {
+    margin: 0 auto;
+    max-width: 1120px;
+    border-radius: 0;
+    box-shadow: none;
+    background: #fff;
+}
+
+body.pdf-export .sidebar {
+    padding: 12px;
+    font-size: 0.78rem;
+}
+
+body.pdf-export .main-content {
+    padding: 14px 16px;
+    font-size: 0.78rem;
+}
+
+body.pdf-export .sidebar ul li {
+    margin-bottom: 6px;
+    font-size: 0.8rem;
+}
+
+body.pdf-export .main-content section {
+    margin-bottom: 14px;
+}
+
+body.pdf-export .main-content h2 {
+    font-size: 1.1rem;
+    margin-bottom: 6px;
+}
+
+body.pdf-export .main-content .job p,
+body.pdf-export .project li {
+    font-size: 1em;
+}
+
+body.pdf-export .project-title {
+    white-space: nowrap;
+}
+
+body.pdf-export .skills {
+    padding: 8px;
+    box-shadow: none;
+}
+
+body.pdf-export .skills h2 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+body.pdf-export .skill-category {
+    margin-bottom: 8px;
+}
+
+body.pdf-export .skill-category h3 {
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+body.pdf-export .skill-category ul li {
+    font-size: 0.9em;
+    margin-bottom: 2px;
 }
 
 /* Responsive */
