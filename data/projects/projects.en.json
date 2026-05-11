@@ -1,0 +1,89 @@
+{
+  "type": "projects",
+  "eyebrow": "Projects",
+  "title": "Personal Projects",
+  "cards": [
+    {
+      "role": "OPAS (Online Profit Automation System)",
+      "company": "Open-source personal project",
+      "period": "Spare-time R&D",
+      "level": "System Architect & Full-stack Developer",
+      "summary": "Personal automation and AI-assisted lab built to sharpen system design, workflow orchestration, and backend delivery skills.",
+      "projects": [
+        {
+          "name": "Laravel + n8n Automation Lab",
+          "tags": [
+            "Automation",
+            "Local AI"
+          ],
+          "bullets": [
+            "Built a personal automation ecosystem that turns experimental workflows into reusable systems for content, data, and business operations.",
+            "Designed orchestration flows with n8n and Python microservices for parsing, enrichment, scheduling, and cross-service processing.",
+            "Integrated local AI runtime with Ollama and multilingual support through LibreTranslate for private automation workflows.",
+            "Containerized the platform with Docker/Compose and maintained CI/CD hygiene with GitHub Actions."
+          ],
+          "meta": [
+            {
+              "label": "GitHub",
+              "value": "View Repository",
+              "href": "https://github.com/Thanhson99/opas-platform"
+            },
+            {
+              "label": "Technologies used",
+              "value": "Laravel, n8n, Python, PostgreSQL, Docker, Docker Compose, NGINX, Ollama (Local AI), LibreTranslate, GitHub Actions, RESTful API"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "compact": true,
+      "role": "Selected GitHub Labs",
+      "company": "Compact showcase of learning and R&D repositories",
+      "repos": [
+        {
+          "name": "Laravel Labs",
+          "desc": "Structured PHP/Laravel learning portal.",
+          "links": [
+            {
+              "label": "Source",
+              "href": "https://github.com/Thanhson99/laravel-labs"
+            },
+            {
+              "label": "Live",
+              "href": "https://thanhson99.github.io/laravel-labs/index.html"
+            }
+          ]
+        },
+        {
+          "name": "Java Labs",
+          "desc": "Java backend learning workspace with roadmap and interview content.",
+          "links": [
+            {
+              "label": "Source",
+              "href": "https://github.com/Thanhson99/java-labs"
+            },
+            {
+              "label": "Live",
+              "href": "https://thanhson99.github.io/java-labs/"
+            }
+          ]
+        },
+        {
+          "name": "Python Labs",
+          "desc": "Python fundamentals, automation, and interview preparation portal.",
+          "links": [
+            {
+              "label": "Source",
+              "href": "https://github.com/Thanhson99/python-labs"
+            },
+            {
+              "label": "Live",
+              "href": "https://thanhson99.github.io/python-labs/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "role": "Backend Developer",
+  "company": "SHB Finance - Saigon - Hanoi Commercial Joint Stock Bank",
+  "period": "07/2021 - 11/2023",
+  "level": "Software Development Specialist",
+  "summary": "Phát triển các hệ thống tài chính nội bộ phục vụ loan origination, dữ liệu khách hàng, cấu hình sản phẩm, vận hành nhân sự và xử lý bảo hiểm. Trọng tâm công việc là thiết kế workflow, tích hợp API, độ ổn định hệ thống, bảo mật và hỗ trợ production cho các nền tảng nội bộ quan trọng.",
+  "projects": [
+    {
+      "name": "Loan Origination System (LOS)",
+      "tags": [
+        "Core business system",
+        "High transaction volume",
+        "Critical workflow"
+      ],
+      "bullets": [
+        "Phân tích yêu cầu nghiệp vụ và thiết kế workflow xử lý khoản vay phù hợp với vận hành và yêu cầu tuân thủ.",
+        "Phát triển và tích hợp API giữa LOS với các hệ thống nội bộ/bên ngoài để đảm bảo trao đổi dữ liệu ổn định.",
+        "Tối ưu backend logic và Oracle queries để hệ thống vận hành ổn định với lượng giao dịch lớn.",
+        "Cải thiện bảo mật hệ thống bằng phân quyền, luồng xác thực an toàn hơn và cơ chế bảo vệ dữ liệu.",
+        "Triển khai luồng phát hành thẻ tín dụng quan trọng cho doanh nghiệp, bao gồm tích hợp bên thứ ba, thiết kế onboarding flow và rollout production.",
+        "Tích hợp face recognition, xác thực CMND/CCCD, dữ liệu CIC, chữ ký số và các dịch vụ liên quan để tăng khả năng chống gian lận và xử lý không giấy tờ.",
+        "Hỗ trợ troubleshooting, fix bug và go-live cho các tính năng và workflow mới."
+      ],
+      "meta": [
+        {
+          "label": "Thành viên nhóm",
+          "value": "Làm việc trong team 4 người gồm 1 Backend Developer (Java), 1 Quality Assurance Engineer và 1 team leader."
+        },
+        {
+          "label": "Công nghệ sử dụng",
+          "value": "PHP, JavaScript, RESTful API, Oracle, Git, third-party services (Face Recognition, CCCD Verification), digital signatures, CIC integration, RabbitMQ"
+        }
+      ]
+    },
+    {
+      "name": "Customer Data Management System",
+      "tags": [
+        "Project owner",
+        "Internal operations"
+      ],
+      "bullets": [
+        "Xây dựng và duy trì nền tảng dữ liệu khách hàng tập trung phục vụ nhu cầu vận hành và kiểm soát nội bộ.",
+        "Cải thiện trải nghiệm sử dụng, xử lý các lỗi production quan trọng và tăng độ ổn định chung của hệ thống.",
+        "Triển khai phân quyền nhiều cấp và các cập nhật chức năng theo nhu cầu của đội vận hành.",
+        "Hỗ trợ production và xử lý sự cố theo thời gian thực cho các team nghiệp vụ."
+      ],
+      "meta": [
+        {
+          "label": "Thành viên nhóm",
+          "value": "Phụ trách toàn bộ phần development và operations."
+        },
+        {
+          "label": "Công nghệ sử dụng",
+          "value": "PHP, Laravel, JavaScript/jQuery, Oracle, JWT, OAuth2, Docker, RESTful API"
+        }
+      ]
+    },
+    {
+      "name": "Products Data Management System",
+      "tags": [
+        "Project owner",
+        "Configuration platform"
+      ],
+      "bullets": [
+        "Phát triển nền tảng tập trung để quản lý cấu hình sản phẩm trong hệ sinh thái loan origination.",
+        "Xây dựng giao diện để đội sản phẩm có thể duy trì các tham số nghiệp vụ như lãi suất, giá, hồ sơ yêu cầu.",
+        "Cải thiện tìm kiếm, lọc, version tracking và validation nhằm giảm sai sót thủ công và tăng khả năng kiểm soát.",
+        "Hỗ trợ các đợt cập nhật chính sách theo quý và theo năm cùng với stakeholders của bộ phận sản phẩm."
+      ],
+      "meta": [
+        {
+          "label": "Thành viên nhóm",
+          "value": "Phụ trách toàn bộ phần development và operations."
+        },
+        {
+          "label": "Công nghệ sử dụng",
+          "value": "PHP, Laravel, JavaScript/jQuery, MySQL, JWT, OAuth2, Docker, RESTful API"
+        }
+      ]
+    },
+    {
+      "name": "Staff Data Management System",
+      "tags": [
+        "Project owner",
+        "Access control"
+      ],
+      "bullets": [
+        "Phát triển và duy trì hệ thống nội bộ để quản lý dữ liệu nhân sự, phân quyền và trách nhiệm vận hành.",
+        "Triển khai các chức năng quản lý role để người dùng nghiệp vụ có thể tạo, cập nhật và kiểm soát quyền truy cập hiệu quả.",
+        "Cải thiện trải nghiệm sử dụng và cấu trúc workflow cho các team vận hành sử dụng hệ thống hằng ngày.",
+        "Tăng cường kiểm soát bảo mật, tối ưu backend behavior và cập nhật tính năng theo phản hồi thực tế từ người dùng."
+      ],
+      "meta": [
+        {
+          "label": "Thành viên nhóm",
+          "value": "Phụ trách toàn bộ phần development và operations."
+        },
+        {
+          "label": "Công nghệ sử dụng",
+          "value": "PHP, Laravel, JavaScript/jQuery, Vue.js, Oracle, JWT, OAuth2, Docker, RESTful API"
+        }
+      ]
+    }
+  ]
+}

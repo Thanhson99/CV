@@ -1,0 +1,89 @@
+{
+  "type": "projects",
+  "eyebrow": "Dự án",
+  "title": "Dự án cá nhân",
+  "cards": [
+    {
+      "role": "OPAS (Online Profit Automation System)",
+      "company": "Dự án mã nguồn mở cá nhân",
+      "period": "R&D thời gian rảnh",
+      "level": "System Architect & Full-stack Developer",
+      "summary": "Lab automation và AI-assisted được xây dựng để rèn kỹ năng thiết kế hệ thống, workflow orchestration và backend delivery.",
+      "projects": [
+        {
+          "name": "Laravel + n8n Automation Lab",
+          "tags": [
+            "Automation",
+            "Local AI"
+          ],
+          "bullets": [
+            "Xây dựng hệ sinh thái automation cá nhân để biến các workflow thử nghiệm thành hệ thống có thể tái sử dụng cho content, data và business operations.",
+            "Thiết kế orchestration flows với n8n và Python microservices cho parsing, enrichment, scheduling và xử lý liên dịch vụ.",
+            "Tích hợp local AI runtime với Ollama và hỗ trợ đa ngôn ngữ qua LibreTranslate cho các workflow private.",
+            "Containerize toàn bộ nền tảng bằng Docker/Compose và duy trì CI/CD hygiene với GitHub Actions."
+          ],
+          "meta": [
+            {
+              "label": "GitHub",
+              "value": "Xem repository",
+              "href": "https://github.com/Thanhson99/opas-platform"
+            },
+            {
+              "label": "Công nghệ sử dụng",
+              "value": "Laravel, n8n, Python, PostgreSQL, Docker, Docker Compose, NGINX, Ollama (Local AI), LibreTranslate, GitHub Actions, RESTful API"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "compact": true,
+      "role": "GitHub Labs chọn lọc",
+      "company": "Tổng hợp ngắn các repo học tập và R&D",
+      "repos": [
+        {
+          "name": "Laravel Labs",
+          "desc": "Cổng học PHP/Laravel có cấu trúc rõ ràng.",
+          "links": [
+            {
+              "label": "Mã nguồn",
+              "href": "https://github.com/Thanhson99/laravel-labs"
+            },
+            {
+              "label": "Live",
+              "href": "https://thanhson99.github.io/laravel-labs/index.html"
+            }
+          ]
+        },
+        {
+          "name": "Java Labs",
+          "desc": "Không gian học Java backend với roadmap và nội dung phỏng vấn.",
+          "links": [
+            {
+              "label": "Mã nguồn",
+              "href": "https://github.com/Thanhson99/java-labs"
+            },
+            {
+              "label": "Live",
+              "href": "https://thanhson99.github.io/java-labs/"
+            }
+          ]
+        },
+        {
+          "name": "Python Labs",
+          "desc": "Cổng học Python cơ bản, automation và chuẩn bị phỏng vấn.",
+          "links": [
+            {
+              "label": "Mã nguồn",
+              "href": "https://github.com/Thanhson99/python-labs"
+            },
+            {
+              "label": "Live",
+              "href": "https://thanhson99.github.io/python-labs/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

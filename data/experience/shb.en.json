@@ -1,0 +1,105 @@
+{
+  "role": "Backend Developer",
+  "company": "SHB Finance - Saigon - Hanoi Commercial Joint Stock Bank",
+  "period": "07/2021 - 11/2023",
+  "level": "Software Development Specialist",
+  "summary": "Worked on internal finance systems supporting loan origination, customer data, product configuration, staff operations, and insurance processing. Focused on workflow design, API integration, system stability, security, and production support across business-critical internal platforms.",
+  "projects": [
+    {
+      "name": "Loan Origination System (LOS)",
+      "tags": [
+        "Core business system",
+        "High transaction volume",
+        "Critical workflow"
+      ],
+      "bullets": [
+        "Analyzed business requirements and designed loan-processing workflows aligned with operational and compliance needs.",
+        "Developed and integrated APIs between LOS and external/internal platforms to support reliable data exchange.",
+        "Optimized backend logic and Oracle queries to keep the system stable under high transaction volume.",
+        "Improved system security through role-based access control, safer authentication flows, and protected data handling.",
+        "Led implementation of a company-critical credit card issuance workflow, including third-party integration, onboarding flow design, and rollout into production.",
+        "Integrated face recognition, CMND/CCCD verification, CIC data, digital signatures, and related services to strengthen fraud prevention and paperless processing.",
+        "Provided troubleshooting, bug fixing, and go-live support for new features and workflow updates."
+      ],
+      "meta": [
+        {
+          "label": "Team Members",
+          "value": "Worked with a team of 4, including a Backend Developer (Java), a Quality Assurance Engineer, and a team leader."
+        },
+        {
+          "label": "Technologies used",
+          "value": "PHP, JavaScript, RESTful API, Oracle, Git, third-party services (Face Recognition, CCCD Verification), digital signatures, CIC integration, RabbitMQ"
+        }
+      ]
+    },
+    {
+      "name": "Customer Data Management System",
+      "tags": [
+        "Project owner",
+        "Internal operations"
+      ],
+      "bullets": [
+        "Built and maintained a centralized customer data platform supporting internal business operations and control needs.",
+        "Improved usability, resolved critical production issues, and strengthened overall system reliability.",
+        "Implemented multi-level access control and functional updates requested by operations stakeholders.",
+        "Provided real-time production support and troubleshooting for operations teams."
+      ],
+      "meta": [
+        {
+          "label": "Team Members",
+          "value": "Solely responsible for all development and operations."
+        },
+        {
+          "label": "Technologies used",
+          "value": "PHP, Laravel, JavaScript/jQuery, Oracle, JWT, OAuth2, Docker, RESTful API"
+        }
+      ]
+    },
+    {
+      "name": "Products Data Management System",
+      "tags": [
+        "Project owner",
+        "Configuration platform"
+      ],
+      "bullets": [
+        "Developed a centralized platform for managing product configuration across the loan origination ecosystem.",
+        "Built interfaces that allowed product teams to maintain business parameters such as rates, prices, and required documents.",
+        "Improved search, filtering, version tracking, and validation to reduce manual mistakes and improve auditability.",
+        "Supported recurring quarterly and yearly policy updates in direct coordination with product stakeholders."
+      ],
+      "meta": [
+        {
+          "label": "Team Members",
+          "value": "Solely responsible for all development and operations."
+        },
+        {
+          "label": "Technologies used",
+          "value": "PHP, Laravel, JavaScript/jQuery, MySQL, JWT, OAuth2, Docker, RESTful API"
+        }
+      ]
+    },
+    {
+      "name": "Staff Data Management System",
+      "tags": [
+        "Project owner",
+        "Access control"
+      ],
+      "bullets": [
+        "Developed and maintained an internal system for managing staff data, permissions, and operational responsibilities.",
+        "Implemented role-management features so business users could create, update, and control staff access effectively.",
+        "Improved user experience and workflow structure for operations teams using the system daily.",
+        "Strengthened security controls, optimized backend behavior, and delivered feature updates based on real user feedback."
+      ],
+      "meta": [
+        {
+          "label": "Team Members",
+          "value": "Solely responsible for all development and operations."
+        },
+        {
+          "label": "Technologies used",
+          "value": "PHP, Laravel, JavaScript/jQuery, Vue.js, Oracle, JWT, OAuth2, Docker, RESTful API"
+        }
+      ]
+    }
+  ]
+}

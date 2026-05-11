@@ -1,0 +1,767 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #1877c9;
+    --primary-dark: #0f4f86;
+    --primary-soft: #eef8ff;
+    --accent: #1aa27a;
+    --ink: #162535;
+    --muted: #24374a;
+    --line: #d8e6f2;
+    --paper: rgba(255, 255, 255, 0.95);
+    --shadow: 0 18px 42px rgba(18, 49, 79, 0.14);
+    --radius-lg: 20px;
+    --radius-md: 14px;
+    --radius-sm: 10px;
+}
+
+body {
+    font-family: "Be Vietnam Pro", sans-serif;
+    line-height: 1.58;
+    background-image: url("../../images/background.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: var(--ink);
+    min-height: 100vh;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.page-toolbar {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1100;
+}
+
+.language-switcher {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 14px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(216, 230, 242, 0.95);
+    box-shadow: 0 10px 24px rgba(18, 44, 69, 0.08);
+    color: var(--ink);
+    font-size: 0.88rem;
+    font-weight: 600;
+}
+
+.language-switcher select {
+    border: 0;
+    background: transparent;
+    color: var(--primary-dark);
+    font: inherit;
+    cursor: pointer;
+    outline: none;
+}
+
+.cv-shell {
+    display: grid;
+    grid-template-columns: 320px minmax(0, 1fr);
+    max-width: 1200px;
+    margin: 24px auto 40px;
+    background: var(--paper);
+    border: 1px solid rgba(255, 255, 255, 0.42);
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    backdrop-filter: blur(5px);
+}
+
+.sidebar {
+    background:
+        radial-gradient(circle at top left, rgba(255, 255, 255, 0.18), transparent 30%),
+        linear-gradient(180deg, rgba(33, 140, 228, 0.94), rgba(16, 96, 164, 0.95));
+    color: #fff;
+    padding: 28px 22px;
+}
+
+.profile-card {
+    text-align: center;
+    padding-bottom: 22px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.22);
+    margin-bottom: 22px;
+}
+
+.avatar {
+    width: 126px;
+    height: 126px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid rgba(255, 255, 255, 0.98);
+    object-position: center center;
+    margin-bottom: 14px;
+    box-shadow: 0 10px 24px rgba(9, 43, 74, 0.22);
+    cursor: zoom-in;
+}
+
+.avatar:focus-visible {
+    outline: none;
+}
+
+.profile-card h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+    color: #eef7ff;
+    margin-bottom: 10px;
+}
+
+.flag-icon {
+    width: 20px;
+    height: auto;
+}
+
+.role {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.headline {
+    font-size: 0.87rem;
+    line-height: 1.6;
+    color: #eef7ff;
+}
+
+.side-section {
+    margin-bottom: 18px;
+    padding: 16px;
+    border-radius: var(--radius-md);
+    background: rgba(255, 255, 255, 0.11);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.side-section h2 {
+    font-size: 1.02rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.icon-list {
+    list-style: none;
+}
+
+.icon-list li {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-size: 0.84rem;
+    align-items: flex-start;
+}
+
+.icon-list i {
+    width: 14px;
+    margin-top: 4px;
+    color: #dff8ef;
+}
+
+.icon-list a {
+    color: #fff;
+    text-decoration: none;
+    word-break: break-word;
+}
+
+.icon-list a:hover,
+.repo-list a:hover,
+.meta-line a:hover {
+    text-decoration: underline;
+}
+
+.skill-block + .skill-block {
+    margin-top: 12px;
+}
+
+.skill-block h3,
+.side-title {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 4px;
+    letter-spacing: 0.01em;
+    text-shadow: 0 1px 10px rgba(8, 47, 81, 0.18);
+}
+
+.skill-block p,
+.side-section p {
+    font-size: 0.85rem;
+    line-height: 1.58;
+    color: #d9ecff;
+}
+
+.main-content {
+    padding: 28px;
+}
+
+.hero-card,
+.company-card {
+    background: rgba(255, 255, 255, 0.94);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 8px 22px rgba(18, 44, 69, 0.06);
+}
+
+.hero-card {
+    padding: 24px;
+    margin-bottom: 22px;
+}
+
+.eyebrow {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--accent);
+    margin-bottom: 8px;
+}
+
+.hero-card h2,
+.section-header h2 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.25;
+    color: var(--primary-dark);
+    margin-bottom: 12px;
+}
+
+.hero-card p {
+    color: var(--muted);
+    font-size: 0.94rem;
+    line-height: 1.68;
+}
+
+.hero-stats {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+    margin-top: 18px;
+}
+
+.stat-card {
+    padding: 14px;
+    background: var(--primary-soft);
+    border: 1px solid #d8e9f6;
+    border-radius: var(--radius-sm);
+}
+
+.stat-card strong {
+    display: block;
+    font-size: 0.96rem;
+    color: var(--primary-dark);
+}
+
+.stat-card span {
+    display: block;
+    margin-top: 4px;
+    font-size: 0.8rem;
+    color: var(--ink);
+}
+
+.content-section {
+    margin-bottom: 22px;
+}
+
+.section-header {
+    margin-bottom: 14px;
+}
+
+.company-card {
+    padding: 20px;
+    margin-bottom: 16px;
+}
+
+.compact-company {
+    padding: 18px 20px;
+}
+
+.company-head {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 12px;
+}
+
+.company-head h3 {
+    font-size: 1.28rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: var(--primary-dark);
+    margin-bottom: 4px;
+}
+
+.company-name {
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.company-meta {
+    text-align: right;
+    min-width: 180px;
+}
+
+.company-meta span {
+    display: block;
+    font-size: 0.82rem;
+    color: var(--ink);
+}
+
+.company-summary {
+    color: var(--ink);
+    font-size: 0.92rem;
+    line-height: 1.68;
+    margin-bottom: 14px;
+}
+
+.project-card {
+    background: #fcfeff;
+    border: 1px solid #e2ebf2;
+    border-radius: var(--radius-md);
+    padding: 16px;
+    margin-top: 12px;
+}
+
+.project-head {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.project-head h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--primary-dark);
+}
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.project-tags span {
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: #edf7ff;
+    color: #145991;
+    font-size: 0.72rem;
+    font-weight: 700;
+}
+
+.project-card ul,
+.repo-list {
+    padding-left: 18px;
+}
+
+.project-card li,
+.repo-list li {
+    margin-bottom: 7px;
+    color: #37485a;
+    font-size: 0.88rem;
+    line-height: 1.66;
+}
+
+.meta-line {
+    margin-top: 10px;
+    color: var(--ink);
+    font-size: 0.84rem;
+    line-height: 1.6;
+}
+
+.meta-line a,
+.repo-list a {
+    color: #0f67b2;
+    font-weight: 600;
+}
+
+.image-lightbox {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 180ms ease, visibility 180ms ease;
+    z-index: 1200;
+}
+
+.image-lightbox.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.lightbox-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(10, 21, 34, 0.72);
+}
+
+.lightbox-dialog {
+    position: relative;
+    z-index: 1;
+    width: min(480px, calc(100vw - 48px));
+    padding: 14px;
+    border-radius: 28px;
+    background: rgba(255, 255, 255, 0.96);
+    box-shadow: 0 24px 60px rgba(7, 20, 34, 0.28);
+}
+
+.lightbox-image {
+    display: block;
+    width: 100%;
+    max-height: 78vh;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+.lightbox-close {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    width: 38px;
+    height: 38px;
+    border: 0;
+    border-radius: 999px;
+    background: rgba(22, 37, 53, 0.88);
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 8px 18px rgba(7, 20, 34, 0.2);
+}
+
+.lightbox-close:hover {
+    background: rgba(15, 79, 134, 0.96);
+}
+
+#downloadBtn {
+    position: fixed;
+    bottom: 22px;
+    right: 22px;
+    background-color: #0f5f9d;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 999px;
+    cursor: pointer;
+    z-index: 1000;
+    box-shadow: 0 10px 24px rgba(15, 95, 157, 0.24);
+}
+
+#downloadBtn img {
+    width: 28px;
+    height: 28px;
+    display: block;
+}
+
+#downloadBtn:hover {
+    background-color: #0a4a79;
+}
+
+#downloadBtn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.project-title {
+    page-break-after: avoid;
+    break-after: avoid-page;
+}
+
+.project-card,
+.company-card {
+    break-inside: avoid;
+    page-break-inside: avoid;
+}
+
+body.pdf-export {
+    line-height: 1.45;
+    background: #fff;
+}
+
+body.pdf-export .page-toolbar {
+    display: none;
+}
+
+body.pdf-export .cv-shell {
+    width: 186mm;
+    max-width: 186mm;
+    grid-template-columns: 52mm minmax(0, 1fr);
+    margin: 0 auto;
+    border-radius: 0;
+    box-shadow: none;
+    border: 0;
+    background: #fff;
+    backdrop-filter: none;
+}
+
+body.pdf-export .sidebar {
+    padding: 12px;
+    background: #fff;
+    color: var(--ink);
+    border-right: 1px solid #dbe6ef;
+}
+
+body.pdf-export .main-content {
+    padding: 12px;
+}
+
+body.pdf-export .profile-card {
+    border-bottom: 1px solid #dbe6ef;
+}
+
+body.pdf-export .profile-card h1 {
+    font-size: 1.18rem;
+    color: var(--ink);
+}
+
+body.pdf-export .avatar {
+    width: 76px;
+    height: 76px;
+    transform: none;
+    box-shadow: none;
+}
+
+body.pdf-export .role {
+    font-size: 0.78rem;
+    color: var(--ink);
+}
+
+body.pdf-export .headline {
+    font-size: 0.62rem;
+    line-height: 1.46;
+    color: var(--ink);
+}
+
+body.pdf-export .side-section {
+    margin-bottom: 10px;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid #dbe6ef;
+    box-shadow: none;
+    break-inside: auto;
+    page-break-inside: auto;
+}
+
+body.pdf-export .side-section h2 {
+    font-size: 0.76rem;
+    color: var(--ink);
+    border-bottom: 1px solid #dbe6ef;
+}
+
+body.pdf-export .skill-block h3,
+body.pdf-export .side-title {
+    font-size: 0.68rem;
+    color: var(--ink);
+    break-after: avoid;
+}
+
+body.pdf-export .location {
+    font-size: 0.72rem;
+    color: var(--ink);
+}
+
+body.pdf-export .icon-list i {
+    width: 10px;
+    margin-top: 2px;
+    color: var(--primary-dark);
+}
+
+body.pdf-export .icon-list a {
+    color: var(--ink);
+    overflow-wrap: anywhere;
+    line-height: 1.35;
+}
+
+body.pdf-export .side-section-contact {
+    margin-left: -2px;
+    margin-right: -2px;
+    padding: 9px 9px;
+}
+
+body.pdf-export .side-section-contact .icon-list li {
+    gap: 5px;
+    margin-bottom: 6px;
+    font-size: 0.61rem;
+}
+
+body.pdf-export .side-section-contact .icon-list i {
+    width: 9px;
+}
+
+body.pdf-export .side-section-contact .icon-list a {
+    font-size: 0.61rem;
+    line-height: 1.32;
+}
+
+body.pdf-export .skill-block {
+    break-inside: auto;
+    page-break-inside: auto;
+}
+
+body.pdf-export .side-section-text {
+    break-inside: avoid;
+    page-break-inside: avoid;
+}
+
+body.pdf-export .hero-card,
+body.pdf-export .company-card {
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: none;
+}
+
+body.pdf-export .project-card {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+body.pdf-export .compact-company {
+    padding: 10px 12px;
+}
+
+body.pdf-export .hero-card h2,
+body.pdf-export .section-header h2 {
+    font-size: 1rem;
+}
+
+body.pdf-export .hero-card p,
+body.pdf-export .company-summary,
+body.pdf-export .project-card li,
+body.pdf-export .meta-line,
+body.pdf-export .icon-list li,
+body.pdf-export .skill-block p,
+body.pdf-export .side-section p,
+body.pdf-export .repo-list li {
+    font-size: 0.66rem;
+    color: var(--ink);
+}
+
+body.pdf-export .repo-list {
+    padding-left: 14px;
+}
+
+body.pdf-export .repo-list li {
+    margin-bottom: 5px;
+    font-size: 0.62rem;
+    line-height: 1.5;
+}
+
+body.pdf-export .company-card {
+    break-inside: auto;
+    page-break-inside: auto;
+}
+
+body.pdf-export .project-card {
+    break-inside: auto;
+    page-break-inside: auto;
+}
+
+body.pdf-export .company-head h3 {
+    font-size: 0.92rem;
+}
+
+body.pdf-export .company-meta span {
+    font-size: 0.66rem;
+}
+
+body.pdf-export .project-head h4 {
+    font-size: 0.78rem;
+}
+
+body.pdf-export .project-tags span {
+    font-size: 0.58rem;
+    padding: 3px 7px;
+}
+
+body.pdf-export .hero-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 6px;
+}
+
+body.pdf-export .stat-card {
+    padding: 8px;
+}
+
+body.pdf-export .stat-card strong {
+    font-size: 0.82rem;
+}
+
+body.pdf-export .stat-card span {
+    font-size: 0.68rem;
+}
+
+body.pdf-export .company-meta {
+    min-width: 120px;
+}
+
+body.pdf-export .project-head {
+    gap: 8px;
+}
+
+body.pdf-export .section-header {
+    break-after: avoid;
+    page-break-after: avoid;
+}
+
+body.pdf-export #downloadBtn {
+    display: none !important;
+}
+
+body.pdf-export .image-lightbox {
+    display: none !important;
+}
+
+@page {
+    size: A4;
+    margin: 8mm;
+}
+
+@media (max-width: 900px) {
+    .page-toolbar {
+        top: 12px;
+        right: 12px;
+    }
+
+    .cv-shell {
+        grid-template-columns: 1fr;
+        margin: 64px 12px 80px;
+    }
+
+    .company-head,
+    .project-head {
+        flex-direction: column;
+    }
+
+    .company-meta {
+        text-align: left;
+        min-width: auto;
+    }
+
+    .hero-stats {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "hero",
+  "eyebrow": "Tóm tắt",
+  "title": "Backend engineer tập trung vào delivery ổn định, tích hợp hệ thống và workflow nghiệp vụ thực tế",
+  "summary": "Backend engineer với {years} kinh nghiệm xây dựng hệ thống nội bộ, nền tảng vận hành theo workflow và các dịch vụ tích hợp. Thế mạnh chính là PHP/Laravel, tích hợp API, ứng dụng thiên về dữ liệu và chuyển đổi yêu cầu nghiệp vụ thành luồng vận hành ổn định. Tôi ưu tiên maintainability, độ ổn định khi triển khai và cách giải quyết vấn đề thực tế. Ngoài công việc, tôi xây các lab automation và AI-assisted để đào sâu kỹ năng thiết kế hệ thống và kiến trúc backend.",
+  "stats": [
+    {
+      "strong": "{years}",
+      "label": "Số năm kinh nghiệm"
+    },
+    {
+      "strong": "Finance, Internal Systems, InsurTech",
+      "label": "Kinh nghiệm domain"
+    },
+    {
+      "strong": "API, Data, Workflow",
+      "label": "Trọng tâm triển khai"
+    }
+  ]
+}

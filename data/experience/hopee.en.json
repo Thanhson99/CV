@@ -1,0 +1,62 @@
+{
+  "role": "Backend Developer",
+  "company": "HOPEE Co., Ltd.",
+  "period": "02/2024 - Present",
+  "level": "Backend Developer",
+  "summary": "Worked on Japanese client projects covering recruitment and insurance registration systems, with responsibilities across backend development, database updates, CMS support, third-party integration, code quality review, security checks, and production support.",
+  "projects": [
+    {
+      "name": "Kanyuweb",
+      "tags": [
+        "Insurance registration",
+        "CMS rebuild"
+      ],
+      "bullets": [
+        "Worked on a Japan-focused insurance registration platform that required business accuracy and user-friendly content flow.",
+        "Modified and improved the web interface based on client requests from Japan.",
+        "Integrated third-party APIs and designed synchronization flows while keeping internal storage lean and maintainable.",
+        "Developed and configured a CMS to support the new interface and backend workflow.",
+        "Redesigned parts of the database structure from the legacy project to align with the new CMS-driven system.",
+        "Implemented frontend and backend features using structured design patterns for maintainability and performance.",
+        "Used SonarQube and Burp Suite to maintain code quality and improve security posture.",
+        "Applied AI-assisted tools such as ChatGPT and GitHub Copilot to speed up drafting, refactoring, and documentation while keeping final output aligned with team standards.",
+        "Worked directly with the team backlog and Git-based branch workflow to manage delivery and collaboration."
+      ],
+      "meta": [
+        {
+          "label": "Team Members",
+          "value": "Worked with a team of 5, including 1 Project Lead, 3 Developers, and 1 Translator (Comtor)."
+        },
+        {
+          "label": "Technologies used",
+          "value": "PHP, Laravel, JavaScript, jQuery, Node.js, SCSS, MySQL, RESTful APIs (third-party data integration), Vite, SonarQube, Burp Suite, Git, Backlog, AI-assisted development tools (ChatGPT, GitHub Copilot)"
+        }
+      ]
+    },
+    {
+      "name": "Mintoku",
+      "tags": [
+        "Recruitment platform",
+        "Realtime features"
+      ],
+      "bullets": [
+        "Worked on a recruitment platform connecting job seekers with employers, with focus on backend features and operational stability.",
+        "Developed and integrated realtime chat and notification functionality using Firebase and Pusher.",
+        "Implemented image storage and media handling on AWS S3 for efficient file management.",
+        "Used WordPress where required for related website management and customization tasks.",
+        "Designed and maintained database structures for performance, scalability, and day-to-day production use.",
+        "Provided ongoing support and issue resolution to keep the system stable in production."
+      ],
+      "meta": [
+        {
+          "label": "Team Members",
+          "value": "Worked with a team of 7, including 1 Project Lead (Tester), 5 Developers, and 1 Translator (Comtor)."
+        },
+        {
+          "label": "Technologies used",
+          "value": "PHP, Node.js, AWS (S3 for image storage), Firebase, Pusher, WordPress (WP), PostgreSQL, RESTful API"
+        }
+      ]
+    }
+  ]
+}

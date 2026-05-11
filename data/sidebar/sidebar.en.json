@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Contact",
+    "type": "contact"
+  },
+  {
+    "title": "Core Skills",
+    "type": "skills",
+    "items": [
+      {
+        "title": "Programming & Web",
+        "text": "PHP, JavaScript, Python, Java, HTML, CSS"
+      },
+      {
+        "title": "Frameworks & Platforms",
+        "text": "Laravel, jQuery, SCSS, React, Node.js, WordPress"
+      },
+      {
+        "title": "Backend Focus",
+        "text": "RESTful APIs, third-party integration, workflow design, access control, production support"
+      },
+      {
+        "title": "Databases",
+        "text": "MySQL, PostgreSQL, Oracle, SQL Server"
+      },
+      {
+        "title": "Tools & Delivery",
+        "text": "Docker, Docker Compose, Git, GitHub Actions, SonarQube, Burp Suite, Backlog, ProcessMaker, n8n"
+      },
+      {
+        "title": "Automation & AI",
+        "text": "n8n workflows, Ollama, local LLM pipelines, Python service integration with Laravel"
+      }
+    ]
+  },
+  {
+    "title": "Education",
+    "type": "text",
+    "titleLine": "Duy Tan University",
+    "lines": [
+      "Bachelor of Software Engineering",
+      "2017 - 2021",
+      "GPA: 3.21 | Class: Good"
+    ]
+  },
+  {
+    "title": "Language",
+    "type": "text",
+    "lines": [
+      "Vietnamese: Native",
+      "English: Basic communication (listening, speaking, reading, and writing)"
+    ]
+  }
+]

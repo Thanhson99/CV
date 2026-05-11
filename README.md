@@ -1,10 +1,5 @@
-# 💼 Online Resume
+# CV
 
-This repository contains the source code for my personal resume.
+A personal CV website with English/Vietnamese support and print-friendly PDF export.
 
 👉 **[View Live CV](https://thanhson99.github.io/CV/)**
-
-## 🚀 Technologies Used
-
-- HTML, CSS, JavaScript
-- Deployed using GitHub Pages

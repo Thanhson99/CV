@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Liên hệ",
+    "type": "contact"
+  },
+  {
+    "title": "Kỹ năng chính",
+    "type": "skills",
+    "items": [
+      {
+        "title": "Ngôn ngữ & Web",
+        "text": "PHP, JavaScript, Python, Java, HTML, CSS"
+      },
+      {
+        "title": "Framework & Nền tảng",
+        "text": "Laravel, jQuery, SCSS, React, Node.js, WordPress"
+      },
+      {
+        "title": "Trọng tâm Backend",
+        "text": "RESTful APIs, tích hợp bên thứ ba, thiết kế workflow, phân quyền truy cập, hỗ trợ production"
+      },
+      {
+        "title": "Cơ sở dữ liệu",
+        "text": "MySQL, PostgreSQL, Oracle, SQL Server"
+      },
+      {
+        "title": "Công cụ & Delivery",
+        "text": "Docker, Docker Compose, Git, GitHub Actions, SonarQube, Burp Suite, Backlog, ProcessMaker, n8n"
+      },
+      {
+        "title": "Automation & AI",
+        "text": "workflow n8n, Ollama, local LLM pipelines, tích hợp Python service với Laravel"
+      }
+    ]
+  },
+  {
+    "title": "Học vấn",
+    "type": "text",
+    "titleLine": "Đại học Duy Tân",
+    "lines": [
+      "Cử nhân Kỹ thuật Phần mềm",
+      "2017 - 2021",
+      "GPA: 3.21 | Xếp loại: Khá"
+    ]
+  },
+  {
+    "title": "Ngoại ngữ",
+    "type": "text",
+    "lines": [
+      "Tiếng Việt: Bản ngữ",
+      "Tiếng Anh: Giao tiếp cơ bản (nghe, nói, đọc, viết)"
+    ]
+  }
+]

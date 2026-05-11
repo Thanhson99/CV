@@ -1,0 +1,20 @@
+{
+  "type": "hero",
+  "eyebrow": "Professional Summary",
+  "title": "Backend engineer focused on stable delivery, integration, and real business workflows",
+  "summary": "Backend engineer with {years} of experience building internal business systems, workflow-driven platforms, and integration services. Core strengths include PHP/Laravel development, API integration, database-centric applications, and translating business requirements into reliable operational flows. I focus on maintainability, delivery stability, and practical problem solving. Outside of work, I build automation and AI-assisted labs to deepen system design and backend architecture skills.",
+  "stats": [
+    {
+      "strong": "{years}",
+      "label": "Years of experience"
+    },
+    {
+      "strong": "Finance, Internal Systems, InsurTech",
+      "label": "Domain exposure"
+    },
+    {
+      "strong": "API, Data, Workflow",
+      "label": "Main delivery focus"
+    }
+  ]
+}

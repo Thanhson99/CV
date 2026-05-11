@@ -1,0 +1,96 @@
+{
+  "workStart": {
+    "year": 2021,
+    "monthIndex": 6,
+    "day": 1
+  },
+  "ui": {
+    "en": {
+      "pageTitle": "CV - Vi Thanh Son",
+      "yearsLabel": "{years}+ years",
+      "languageSelectAria": "Select CV language",
+      "languageOptions": {
+        "en": "English",
+        "vi": "Tiếng Việt"
+      },
+      "avatarOpenAria": "Open full avatar",
+      "avatarImageAlt": "Vi Thanh Son avatar",
+      "flagAlt": "Vietnam Flag",
+      "lightboxDialogAria": "Avatar preview",
+      "lightboxCloseAria": "Close avatar preview",
+      "exportButtonAria": "Export PDF",
+      "exportImageAlt": "Export PDF",
+      "exportLoading": "Preparing PDF...",
+      "exportPrintError": "Cannot open print dialog right now. Please try again."
+    },
+    "vi": {
+      "pageTitle": "CV - Vi Thành Sơn",
+      "yearsLabel": "{years}+ năm",
+      "languageSelectAria": "Chọn ngôn ngữ CV",
+      "languageOptions": {
+        "en": "English",
+        "vi": "Tiếng Việt"
+      },
+      "avatarOpenAria": "Mở ảnh đại diện đầy đủ",
+      "avatarImageAlt": "Ảnh đại diện Vi Thành Sơn",
+      "flagAlt": "Cờ Việt Nam",
+      "lightboxDialogAria": "Xem ảnh đại diện",
+      "lightboxCloseAria": "Đóng xem ảnh đại diện",
+      "exportButtonAria": "Xuất PDF",
+      "exportImageAlt": "Xuất PDF",
+      "exportLoading": "Đang chuẩn bị PDF...",
+      "exportPrintError": "Chưa thể mở hộp thoại in lúc này. Hãy thử lại."
+    }
+  },
+  "profile": {
+    "name": {
+      "en": "Vi Thanh Son",
+      "vi": "Vi Thành Sơn"
+    },
+    "avatar": "images/avatar.png",
+    "locationLabel": {
+      "en": "Vietnam",
+      "vi": "Việt Nam"
+    },
+    "role": {
+      "en": "Backend Engineer | PHP/Laravel Developer",
+      "vi": "Backend Engineer | PHP/Laravel Developer"
+    },
+    "headline": {
+      "en": "{years} in internal systems, APIs, workflow-driven platforms, and business operations support.",
+      "vi": "{years} làm việc với hệ thống nội bộ, API, nền tảng theo workflow và hỗ trợ vận hành nghiệp vụ."
+    }
+  },
+  "contact": [
+    {
+      "icon": "fas fa-envelope",
+      "href": "mailto:sonvi10101999@gmail.com",
+      "label": "sonvi10101999@gmail.com"
+    },
+    {
+      "icon": "fas fa-phone-alt",
+      "href": "tel:+84337517047",
+      "label": "0337 517 047"
+    },
+    {
+      "icon": "fab fa-github",
+      "href": "https://github.com/Thanhson99",
+      "label": "github.com/Thanhson99"
+    },
+    {
+      "icon": "fab fa-linkedin",
+      "href": "https://www.linkedin.com/in/thanhson99/",
+      "label": "linkedin.com/in/thanhson99"
+    },
+    {
+      "icon": "fab fa-facebook",
+      "href": "https://facebook.com/son.vi.99",
+      "label": "facebook.com/son.vi.99"
+    },
+    {
+      "icon": "fab fa-telegram",
+      "href": "tel:+84337517047",
+      "label": "0337 517 047"
+    }
+  ]
+}

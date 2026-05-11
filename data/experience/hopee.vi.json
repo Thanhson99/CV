@@ -1,0 +1,62 @@
+{
+  "role": "Backend Developer",
+  "company": "HOPEE Co., Ltd.",
+  "period": "02/2024 - Hiện tại",
+  "level": "Backend Developer",
+  "summary": "Tham gia các dự án cho khách hàng Nhật liên quan đến tuyển dụng và đăng ký bảo hiểm, với phạm vi công việc gồm backend development, cập nhật dữ liệu, hỗ trợ CMS, tích hợp bên thứ ba, review chất lượng code, security checks và hỗ trợ production.",
+  "projects": [
+    {
+      "name": "Kanyuweb",
+      "tags": [
+        "Đăng ký bảo hiểm",
+        "CMS rebuild"
+      ],
+      "bullets": [
+        "Tham gia phát triển nền tảng đăng ký bảo hiểm cho thị trường Nhật, yêu cầu độ chính xác nghiệp vụ cao và luồng nội dung thân thiện với người dùng.",
+        "Chỉnh sửa và cải thiện giao diện web theo yêu cầu từ phía khách hàng Nhật.",
+        "Tích hợp third-party APIs và thiết kế luồng đồng bộ dữ liệu, đồng thời giữ phần lưu trữ nội bộ gọn và dễ bảo trì.",
+        "Phát triển và cấu hình CMS để hỗ trợ giao diện mới và luồng backend tương ứng.",
+        "Thiết kế lại một phần cấu trúc database từ hệ thống cũ để phù hợp với kiến trúc mới dựa trên CMS.",
+        "Triển khai cả frontend và backend theo hướng có cấu trúc, ưu tiên maintainability và performance.",
+        "Sử dụng SonarQube và Burp Suite để duy trì chất lượng code và tăng độ an toàn bảo mật.",
+        "Áp dụng các công cụ AI-assisted như ChatGPT và GitHub Copilot để hỗ trợ drafting, refactoring và documentation, nhưng vẫn đảm bảo đầu ra cuối cùng đúng chuẩn dự án.",
+        "Làm việc trực tiếp với backlog của team và quy trình branch Git để theo dõi delivery và cộng tác."
+      ],
+      "meta": [
+        {
+          "label": "Thành viên nhóm",
+          "value": "Làm việc trong team 5 người gồm 1 Project Lead, 3 Developers và 1 Translator (Comtor)."
+        },
+        {
+          "label": "Công nghệ sử dụng",
+          "value": "PHP, Laravel, JavaScript, jQuery, Node.js, SCSS, MySQL, RESTful APIs (tích hợp dữ liệu bên thứ ba), Vite, SonarQube, Burp Suite, Git, Backlog, AI-assisted development tools (ChatGPT, GitHub Copilot)"
+        }
+      ]
+    },
+    {
+      "name": "Mintoku",
+      "tags": [
+        "Nền tảng tuyển dụng",
+        "Realtime features"
+      ],
+      "bullets": [
+        "Tham gia phát triển nền tảng tuyển dụng kết nối người tìm việc với doanh nghiệp, tập trung vào backend features và độ ổn định khi vận hành.",
+        "Phát triển và tích hợp chat realtime cùng notification bằng Firebase và Pusher.",
+        "Triển khai lưu trữ hình ảnh và media trên AWS S3 để quản lý file hiệu quả.",
+        "Sử dụng WordPress cho các hạng mục website liên quan khi dự án yêu cầu.",
+        "Thiết kế và duy trì cấu trúc database theo hướng tối ưu hiệu năng, khả năng mở rộng và vận hành hằng ngày.",
+        "Hỗ trợ xử lý sự cố và duy trì độ ổn định của hệ thống trên production."
+      ],
+      "meta": [
+        {
+          "label": "Thành viên nhóm",
+          "value": "Làm việc trong team 7 người gồm 1 Project Lead (Tester), 5 Developers và 1 Translator (Comtor)."
+        },
+        {
+          "label": "Công nghệ sử dụng",
+          "value": "PHP, Node.js, AWS (S3 cho image storage), Firebase, Pusher, WordPress (WP), PostgreSQL, RESTful API"
+        }
+      ]
+    }
+  ]
+}
