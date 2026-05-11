@@ -16,10 +16,10 @@ document.addEventListener("DOMContentLoaded", () => {
     let currentLanguage = "en";
     let cvData = null;
     let closeLightboxModal = null;
-    const dataBasePath = "../../data";
+    const dataBaseUrl = new URL("../../data/", import.meta.url);
 
     const loadJson = async (path) => {
-        const response = await fetch(path);
+        const response = await fetch(new URL(path, dataBaseUrl));
 
         if (!response.ok) {
             throw new Error(`Failed to load ${path}: ${response.status}`);
@@ -42,17 +42,17 @@ document.addEventListener("DOMContentLoaded", () => {
             projectsEn,
             projectsVi
         ] = await Promise.all([
-            loadJson(`${dataBasePath}/common.json`),
-            loadJson(`${dataBasePath}/sidebar/sidebar.en.json`),
-            loadJson(`${dataBasePath}/sidebar/sidebar.vi.json`),
-            loadJson(`${dataBasePath}/summary/summary.en.json`),
-            loadJson(`${dataBasePath}/summary/summary.vi.json`),
-            loadJson(`${dataBasePath}/experience/hopee.en.json`),
-            loadJson(`${dataBasePath}/experience/hopee.vi.json`),
-            loadJson(`${dataBasePath}/experience/shb.en.json`),
-            loadJson(`${dataBasePath}/experience/shb.vi.json`),
-            loadJson(`${dataBasePath}/projects/projects.en.json`),
-            loadJson(`${dataBasePath}/projects/projects.vi.json`)
+            loadJson("common.json"),
+            loadJson("sidebar/sidebar.en.json"),
+            loadJson("sidebar/sidebar.vi.json"),
+            loadJson("summary/summary.en.json"),
+            loadJson("summary/summary.vi.json"),
+            loadJson("experience/hopee.en.json"),
+            loadJson("experience/hopee.vi.json"),
+            loadJson("experience/shb.en.json"),
+            loadJson("experience/shb.vi.json"),
+            loadJson("projects/projects.en.json"),
+            loadJson("projects/projects.vi.json")
         ]);
 
         return {
