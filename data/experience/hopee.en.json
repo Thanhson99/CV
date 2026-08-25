@@ -3,18 +3,20 @@
   "company": "HOPEE Co., Ltd.",
   "period": "02/2024 - Present",
   "level": "Backend Developer",
-  "summary": "Worked on Japanese client projects covering recruitment and insurance registration systems, with responsibilities across backend development, database updates, CMS support, third-party integration, code quality review, security checks, and production support.",
+  "summary": "Worked on Japanese client projects covering recruitment, insurance registration, and payment flows, with responsibilities across backend development, database updates, CMS support, third-party integration, code quality review, security checks, and production support.",
   "projects": [
     {
       "name": "Kanyuweb",
       "tags": [
         "Insurance registration",
-        "CMS rebuild"
+        "CMS rebuild",
+        "Payment integration"
       ],
       "bullets": [
         "Worked on a Japan-focused insurance registration platform that required business accuracy and user-friendly content flow.",
         "Modified and improved the web interface based on client requests from Japan.",
         "Integrated third-party APIs and designed synchronization flows while keeping internal storage lean and maintainable.",
+        "Supported payment gateway migration from e-SCOTT to VeriTrans for the Japanese market, updating request/response flows and transaction result handling based on business requirements.",
         "Developed and configured a CMS to support the new interface and backend workflow.",
         "Redesigned parts of the database structure from the legacy project to align with the new CMS-driven system.",
         "Implemented frontend and backend features using structured design patterns for maintainability and performance.",
@@ -29,7 +31,7 @@
         },
         {
           "label": "Technologies used",
-          "value": "PHP, Laravel, JavaScript, jQuery, Node.js, SCSS, MySQL, RESTful APIs (third-party data integration), Vite, SonarQube, Burp Suite, Git, Backlog, AI-assisted development tools (ChatGPT, GitHub Copilot)"
+          "value": "PHP, Laravel, JavaScript, jQuery, Node.js, SCSS, MySQL, RESTful APIs (third-party data integration), payment gateway integration (e-SCOTT, VeriTrans), Vite, SonarQube, Burp Suite, Git, Backlog, AI-assisted development tools (ChatGPT, GitHub Copilot)"
         }
       ]
     },

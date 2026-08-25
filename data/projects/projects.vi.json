@@ -8,7 +8,7 @@
       "company": "Dự án mã nguồn mở cá nhân",
       "period": "R&D thời gian rảnh",
       "level": "System Architect & Full-stack Developer",
-      "summary": "Lab automation và AI-assisted được xây dựng để rèn kỹ năng thiết kế hệ thống, workflow orchestration và backend delivery.",
+      "summary": "Lab automation và AI được xây dựng để rèn kỹ năng thiết kế hệ thống, điều phối workflow và triển khai backend.",
       "projects": [
         {
           "name": "Laravel + n8n Automation Lab",
@@ -17,10 +17,10 @@
             "Local AI"
           ],
           "bullets": [
-            "Xây dựng hệ sinh thái automation cá nhân để biến các workflow thử nghiệm thành hệ thống có thể tái sử dụng cho content, data và business operations.",
-            "Thiết kế orchestration flows với n8n và Python microservices cho parsing, enrichment, scheduling và xử lý liên dịch vụ.",
-            "Tích hợp local AI runtime với Ollama và hỗ trợ đa ngôn ngữ qua LibreTranslate cho các workflow private.",
-            "Containerize toàn bộ nền tảng bằng Docker/Compose và duy trì CI/CD hygiene với GitHub Actions."
+            "Xây dựng hệ sinh thái automation cá nhân để biến các workflow thử nghiệm thành hệ thống có thể tái sử dụng cho content, data và vận hành nghiệp vụ.",
+            "Thiết kế luồng điều phối với n8n và Python microservices cho parsing, enrichment, scheduling và xử lý liên dịch vụ.",
+            "Tích hợp local AI runtime với Ollama và hỗ trợ đa ngôn ngữ qua LibreTranslate cho các workflow riêng tư.",
+            "Đóng gói toàn bộ nền tảng bằng Docker/Compose và duy trì quy trình CI/CD gọn gàng với GitHub Actions."
           ],
           "meta": [
             {

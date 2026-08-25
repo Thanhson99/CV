@@ -17,19 +17,19 @@
       },
       {
         "title": "Trọng tâm Backend",
-        "text": "RESTful APIs, tích hợp bên thứ ba, thiết kế workflow, phân quyền truy cập, hỗ trợ production"
+        "text": "RESTful APIs, tích hợp bên thứ ba, thiết kế luồng nghiệp vụ, phân quyền truy cập, hỗ trợ production"
       },
       {
         "title": "Cơ sở dữ liệu",
         "text": "MySQL, PostgreSQL, Oracle, SQL Server"
       },
       {
-        "title": "Công cụ & Delivery",
+        "title": "Công cụ & Triển khai",
         "text": "Docker, Docker Compose, Git, GitHub Actions, SonarQube, Burp Suite, Backlog, ProcessMaker, n8n"
       },
       {
         "title": "Automation & AI",
-        "text": "workflow n8n, Ollama, local LLM pipelines, tích hợp Python service với Laravel"
+        "text": "n8n workflows, Ollama, local LLM pipelines, ứng dụng AI để tăng tốc phân tích, refactor, viết tài liệu và tự động hóa công việc"
       }
     ]
   },
@@ -40,7 +40,7 @@
     "lines": [
       "Cử nhân Kỹ thuật Phần mềm",
       "2017 - 2021",
-      "GPA: 3.21 | Xếp loại: Khá"
+      "GPA: 3.21/4.00 | Xếp loại: Giỏi"
     ]
   },
   {
