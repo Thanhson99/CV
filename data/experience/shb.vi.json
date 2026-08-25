@@ -1,25 +1,25 @@
 {
   "role": "Backend Developer",
-  "company": "SHB Finance - Saigon - Hanoi Commercial Joint Stock Bank",
+  "company": "SHB Finance - Saigon-Hanoi Commercial Joint Stock Bank",
   "period": "07/2021 - 11/2023",
   "level": "Software Development Specialist",
-  "summary": "Phát triển các hệ thống tài chính nội bộ phục vụ loan origination, dữ liệu khách hàng, cấu hình sản phẩm, vận hành nhân sự và xử lý bảo hiểm. Trọng tâm công việc là thiết kế workflow, tích hợp API, độ ổn định hệ thống, bảo mật và hỗ trợ production cho các nền tảng nội bộ quan trọng.",
+  "summary": "Phát triển các hệ thống tài chính nội bộ phục vụ khởi tạo khoản vay, dữ liệu khách hàng, cấu hình sản phẩm, vận hành nhân sự và xử lý bảo hiểm. Trọng tâm công việc là thiết kế luồng nghiệp vụ, tích hợp API, đảm bảo độ ổn định hệ thống, bảo mật và hỗ trợ production cho các nền tảng nội bộ quan trọng.",
   "projects": [
     {
       "name": "Loan Origination System (LOS)",
       "tags": [
-        "Core business system",
-        "High transaction volume",
-        "Critical workflow"
+        "Hệ thống nghiệp vụ lõi",
+        "Lượng giao dịch lớn",
+        "Luồng nghiệp vụ quan trọng"
       ],
       "bullets": [
-        "Phân tích yêu cầu nghiệp vụ và thiết kế workflow xử lý khoản vay phù hợp với vận hành và yêu cầu tuân thủ.",
+        "Phân tích yêu cầu nghiệp vụ và thiết kế luồng xử lý khoản vay phù hợp với vận hành và yêu cầu tuân thủ.",
         "Phát triển và tích hợp API giữa LOS với các hệ thống nội bộ/bên ngoài để đảm bảo trao đổi dữ liệu ổn định.",
         "Tối ưu backend logic và Oracle queries để hệ thống vận hành ổn định với lượng giao dịch lớn.",
         "Cải thiện bảo mật hệ thống bằng phân quyền, luồng xác thực an toàn hơn và cơ chế bảo vệ dữ liệu.",
-        "Triển khai luồng phát hành thẻ tín dụng quan trọng cho doanh nghiệp, bao gồm tích hợp bên thứ ba, thiết kế onboarding flow và rollout production.",
+        "Triển khai luồng phát hành thẻ tín dụng quan trọng cho doanh nghiệp, bao gồm tích hợp bên thứ ba, thiết kế luồng onboarding và rollout production.",
         "Tích hợp face recognition, xác thực CMND/CCCD, dữ liệu CIC, chữ ký số và các dịch vụ liên quan để tăng khả năng chống gian lận và xử lý không giấy tờ.",
-        "Hỗ trợ troubleshooting, fix bug và go-live cho các tính năng và workflow mới."
+        "Hỗ trợ troubleshooting, sửa lỗi và go-live cho các tính năng và luồng nghiệp vụ mới."
       ],
       "meta": [
         {
@@ -35,8 +35,8 @@
     {
       "name": "Customer Data Management System",
       "tags": [
-        "Project owner",
-        "Internal operations"
+        "Phụ trách chính",
+        "Vận hành nội bộ"
       ],
       "bullets": [
         "Xây dựng và duy trì nền tảng dữ liệu khách hàng tập trung phục vụ nhu cầu vận hành và kiểm soát nội bộ.",
@@ -58,8 +58,8 @@
     {
       "name": "Products Data Management System",
       "tags": [
-        "Project owner",
-        "Configuration platform"
+        "Phụ trách chính",
+        "Nền tảng cấu hình"
       ],
       "bullets": [
         "Phát triển nền tảng tập trung để quản lý cấu hình sản phẩm trong hệ sinh thái loan origination.",
@@ -81,14 +81,14 @@
     {
       "name": "Staff Data Management System",
       "tags": [
-        "Project owner",
-        "Access control"
+        "Phụ trách chính",
+        "Kiểm soát truy cập"
       ],
       "bullets": [
         "Phát triển và duy trì hệ thống nội bộ để quản lý dữ liệu nhân sự, phân quyền và trách nhiệm vận hành.",
         "Triển khai các chức năng quản lý role để người dùng nghiệp vụ có thể tạo, cập nhật và kiểm soát quyền truy cập hiệu quả.",
-        "Cải thiện trải nghiệm sử dụng và cấu trúc workflow cho các team vận hành sử dụng hệ thống hằng ngày.",
-        "Tăng cường kiểm soát bảo mật, tối ưu backend behavior và cập nhật tính năng theo phản hồi thực tế từ người dùng."
+        "Cải thiện trải nghiệm sử dụng và cấu trúc luồng nghiệp vụ cho các team vận hành sử dụng hệ thống hằng ngày.",
+        "Tăng cường kiểm soát bảo mật, tối ưu hành vi backend và cập nhật tính năng theo phản hồi thực tế từ người dùng."
       ],
       "meta": [
         {

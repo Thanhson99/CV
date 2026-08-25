@@ -1,8 +1,8 @@
 {
   "type": "hero",
   "eyebrow": "Tóm tắt",
-  "title": "Backend engineer tập trung vào delivery ổn định, tích hợp hệ thống và workflow nghiệp vụ thực tế",
-  "summary": "Backend engineer với {years} kinh nghiệm xây dựng hệ thống nội bộ, nền tảng vận hành theo workflow và các dịch vụ tích hợp. Thế mạnh chính là PHP/Laravel, tích hợp API, ứng dụng thiên về dữ liệu và chuyển đổi yêu cầu nghiệp vụ thành luồng vận hành ổn định. Tôi ưu tiên maintainability, độ ổn định khi triển khai và cách giải quyết vấn đề thực tế. Ngoài công việc, tôi xây các lab automation và AI-assisted để đào sâu kỹ năng thiết kế hệ thống và kiến trúc backend.",
+  "title": "Kỹ sư backend tập trung vào triển khai ổn định, tích hợp hệ thống và luồng nghiệp vụ thực tế",
+  "summary": "Kỹ sư backend với {years} kinh nghiệm xây dựng hệ thống nội bộ, nền tảng vận hành theo luồng nghiệp vụ và các dịch vụ tích hợp. Thế mạnh chính là PHP/Laravel, tích hợp API, ứng dụng thiên về dữ liệu và chuyển đổi yêu cầu nghiệp vụ thành luồng vận hành ổn định. Tôi ưu tiên mã nguồn dễ bảo trì, độ ổn định khi triển khai và cách giải quyết vấn đề thực tế. Tôi cũng sử dụng hiệu quả các công cụ AI như ChatGPT, GitHub Copilot và local LLM để tăng tốc phân tích yêu cầu, refactor, viết tài liệu và tự động hóa công việc mà vẫn kiểm soát chất lượng đầu ra.",
   "stats": [
     {
       "strong": "{years}",
